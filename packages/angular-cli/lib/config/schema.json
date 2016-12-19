@@ -28,8 +28,12 @@
             "type": "string"
           },
           "outDir": {
-            "type": "string",
-            "default": "dist/"
+              "type": "string",
+              "default": "dist/"
+          },
+          "appRoot": {
+              "type": "string",
+              "default": "app"
           },
           "assets": {
             "oneOf": [
